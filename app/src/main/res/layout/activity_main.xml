@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#58727C"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/logbtn"
+        android:layout_width="164dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:background="#2196F3"
+        android:text="@string/LogBtn"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passlog" />
+
+    <Button
+        android:id="@+id/RegBtn"
+        android:layout_width="164dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="8dp"
+        android:background="#DA5A32"
+        android:text="@string/RegBtn"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/or" />
+
+    <EditText
+        android:id="@+id/emailLog"
+        android:layout_width="259dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/email"
+        android:inputType="textEmailAddress"
+        android:textColor="#F4F3F3"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#F4F3F3"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+
+    <EditText
+        android:id="@+id/passlog"
+        android:layout_width="259dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:textColor="#F4F3F3"
+        android:textColorHighlight="#3F51B5"
+        android:textColorHint="#F4F3F3"
+        android:textColorLink="#3F51B5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailLog" />
+
+    <TextView
+        android:id="@+id/or"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/or"
+        android:textColor="#FBFBFB"
+        android:textColorHighlight="#FAF6F6"
+        android:textColorHint="#FBFBFB"
+        android:textColorLink="#F8F5F5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logbtn" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="216dp"
+        android:layout_height="205dp"
+        android:layout_marginTop="32dp"
+        android:contentDescription="@string/Logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/friz" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

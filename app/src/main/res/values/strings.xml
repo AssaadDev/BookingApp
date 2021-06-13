@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Booking</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="LogBtn">Login</string>
+    <string name="or">or</string>
+    <string name="RegBtn">Register</string>
+    <string name="Logo">Logo</string>
+    <string name="Name">Enter Full Name...</string>
+    <string name="Phone">Enter number...</string>
+    <string name="regEmail">Enter e-mail...</string>
+    <string name="regpw">Enter Password...</string>
+    <string name="cregpw">Confirm Password...</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="regme">Register me!</string>
+    <string name="Logout">Logut</string>
+    <string name="booking">Book me!</string>
+    <string name="mybook">My book?</string>
+    <string name="username">Hello user</string>
+    <string name="title_activity_admindash">admindash</string>
+
+    <string name="exit">Cancle</string>
+    <string name="done">Book me!</string>
+    <string name="ServiceType">Hair cut</string>
+    <string name="datelist">24. Jan.</string>
+    <string name="timelist">12:00</string>
+
+    <string-array name="service">
+        <item>Type of service</item>
+        <item>Hair cut</item>
+        <item>Colouring</item>
+        <item>Styling</item>
+        <item>Ironing hair</item>
+        <item>Blow-drying</item>
+        <item>Shaving</item>
+        <item>Beard styling</item>
+    </string-array>
+
+    <string-array name="time">
+        <item>Time</item>
+        <item>8:00</item>
+        <item>8:30</item>
+        <item>9:00</item>
+        <item>9:30</item>
+        <item>10:00</item>
+        <item>10:30</item>
+        <item>11:00</item>
+        <item>11:30</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>13:30</item>
+        <item>14:00</item>
+        <item>14:30</item>
+        <item>15:00</item>
+        <item>15:30</item>
+    </string-array>
+</resources>

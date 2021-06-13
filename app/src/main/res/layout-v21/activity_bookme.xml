@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#58727C"
+    tools:context=".bookme">
+
+    <Spinner
+        android:id="@+id/service"
+        android:layout_width="240dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/service"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/time" />
+
+    <DatePicker
+        android:id="@+id/date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:calendarViewShown="false"
+        android:datePickerMode="spinner"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo2" />
+
+    <Spinner
+        android:id="@+id/time"
+        android:layout_width="240dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="8dp"
+        android:drawSelectorOnTop="true"
+        android:entries="@array/time"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/date" />
+
+    <Button
+        android:id="@+id/booknow"
+        android:layout_width="160dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:background="#32D534"
+        android:foregroundGravity="center"
+        android:text="@string/done"
+        android:textColor="#FAFAFA"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/close"
+        app:layout_constraintTop_toBottomOf="@+id/service" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="212dp"
+        android:layout_height="170dp"
+        android:contentDescription="@string/Logo"
+        android:foregroundGravity="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/frz" />
+
+    <Button
+        android:id="@+id/close"
+        android:layout_width="160dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="16dp"
+        android:background="#E33434"
+        android:foregroundGravity="center"
+        android:text="@string/exit"
+        android:textColor="#FBFBFB"
+        app:layout_constraintEnd_toStartOf="@+id/booknow"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/service" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
